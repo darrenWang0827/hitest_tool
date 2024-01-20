@@ -21,7 +21,7 @@ from .sftp.SftpTool import SFTP
 hirunner_sftp = SFTP(hostname="localhost", port=57000, username="sftp_hirunner", password="Ch8d%hdhxt")
 
 
-class TestRunner:
+class HirunnerReporter:
     """
     1.使用unittest运行用例
     2.使用unittestreport生成测试报告
