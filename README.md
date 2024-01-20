@@ -9,9 +9,6 @@ hitest工具子模块
 cd hitest   
 git submodule add https://github.com/darrenWang0827/hitest_tool.git  
 
-更新子模块内容   
-git submodule update --recursive  
-
 强制更新子模块内容  
 git submodule --remote --recursive --force  
 
